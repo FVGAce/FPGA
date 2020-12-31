@@ -34,8 +34,7 @@ module alu(
     wire t_c_out;
     reg [3:0] t_a = 3'b000, t_b = 3'b000;
     
-    //cs_adder adder(.sum(Result), .c_out(t_c_out), .a(t_a), .b(t_b), .c_in(c_in), .mode(c_in));    
-    CLA_Adder(.a(A), .b(B), .mode(mode), .c_in(c_in), .sum(Result), .c_out(t_c_out));
+    cs_adder adder(.sum(Result), .c_out(t_c_out), .a(t_a), .b(t_b), .c_in(c_in), .mode(c_in));
     
     always @(*) begin
         if (mode == 1'b0) begin //Logical Operations
