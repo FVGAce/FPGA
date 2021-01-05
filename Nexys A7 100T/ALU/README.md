@@ -6,8 +6,7 @@ adder, which is faster then a ripple carry adder but slower then a carry look ah
 by the ALU module which uses case and if statements to mux, the outputs correctly depending on the inputs. The user can select the inputs using a keyboard, the system only 
 listens to valid inputs. If an invalid input is pressed then nothing happens. This info is then encoded and decoded for the ALU to understand. The results of the ALU are 
 displayed using 7 segment display for letters and numbers, and an LED light and VGA to visually show if their is possible calculations errors due to carry out bits not being 
-calculated, which happens because this a 4 bit adder, so anything bigger will
-cause an error.
+calculated, which happens because this a 4 bit adder, so anything bigger will cause an error. This lab took about 1-2 days to complete.
 
 ## I/O
 ### Inputs
