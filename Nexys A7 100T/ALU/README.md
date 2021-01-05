@@ -22,7 +22,7 @@ cause an error.
 - VGA
 
 ## Main Modules
-The following modules are the main modules, though they are put together with many sub-modules.
+The following modules are the main modules that controlled by the top module, dec_alu, though they are put together with many sub-modules.
 
 ### Encoder
 This module takes in user input from the keyboard, then creates BCD sentences out of the numbers typed in. The encoder then converts this to binary, this done through a
